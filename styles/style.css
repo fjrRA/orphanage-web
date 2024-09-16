@@ -25,7 +25,252 @@ body {
   font-family: var(--font-main);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-main: "Inter", sans-serif;
+}
+
+ul,
+a {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
 /* Base or Mobile Mode */
+/* Navbar */
+#header-navigation>.header-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  gap: 15px;
+}
+
+#header-navigation span,
+nav {
+  display: none;
+}
+
+#header-navigation .hamburger-button {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("../assets/images/banner.png") no-repeat center center;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 48px;
+}
+
+section>.hero-offer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 30px;
+  height: auto;
+}
+
+.hero-offer>span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero-offer>h1 {
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.hero-offer .highlight {
+  color: blue;
+}
+
+.hero-offer>button {
+  color: #fff;
+  background-color: blue;
+  padding: 15px;
+  width: 200px;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  font-size: 18px;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+}
+
+.hero-offer>button:last-child {
+  color: blue;
+  background: transparent;
+  font-weight: 700;
+  border: 2.5px solid blue;
+}
+
+/* Main */
+/* Facility */
+.facility {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.facility__container {
+  margin: 2rem;
+  padding: 12px;
+  max-width: 340px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 12px;
+}
+
+/* Profile */
+.profile {
+  background: #1450A3;
+  height: auto;
+  color: #f0f0f0;
+  margin-bottom: 32px;
+}
+
+.profile>h2 {
+  color: #FFC436;
+  padding: 24px;
+}
+
+.profile p {
+  line-height: 24px;
+  font-size: 17px;
+  padding: 24px;
+}
+
+.profile p>span {
+  color: #FFC436;
+}
+
+.profile img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+/* Vision & Mission */
+.vision-mission>h2 {
+  text-align: center;
+}
+
+.vision-mission h2>span {
+  color: #1450A3;
+}
+
+.vision-mission__list {
+  padding: 24px;
+}
+
+.vision-mission__list>h3 {
+  margin: 24px 0 0 0;
+  color: #1450A3;
+}
+
+.vision-mission__list>p,
+li {
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.vision-mission__list>ol {
+  margin-top: -16px;
+  padding: 20px;
+}
+
+.vision-mission>img {
+  padding: 24px;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+/* Program & Facility */
+.program {
+  background: #1450A3;
+  padding: 12px;
+}
+
+.program>h2 {
+  text-align: center;
+  color: #f0f0f0;
+  margin: 24px 0;
+}
+
+.program>h2>span {
+  color: #FFC436;
+}
+
+.program__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  color: #f0f0f0;
+}
+
+.program__list__card {
+  max-width: 400px;
+  margin: 8px 0 32px 0;
+  padding: 12px;
+}
+
+.program__list__card__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.program__list__card__title>img {
+  width: 25px;
+  height: auto;
+}
+
+.program__list__card__title>h3 {
+  color: #FFC436;
+  font-weight: 600;
+}
+
+.program__list__card>p {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* =========================== */
 /* Navbar */
 #header-navigation>.header-logo {
   display: flex;
@@ -273,5 +518,35 @@ li {
 }
 
 /* =========================== */
+@media screen and (min-width: 568px) {
+  #header-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #header-navigation>.header-logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  #header-navigation span,
+  nav {
+    display: block;
+  }
+
+  #header-navigation .hamburger-button {
+    display: none;
+  }
+
+  #hero-navigation #main-nav {
+    display: block;
+  }
+}
+
+/* =========================== */
 /* Desktop Mode */
+@media screen and (min-width: 1200px) {}
+
 @media screen and (min-width: 1200px) {}
