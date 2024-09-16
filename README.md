@@ -1,4 +1,4 @@
 # orphanage-web
 <p>
-Build an Orphanage Website
+Build an Orphanage Website.
 </p>
