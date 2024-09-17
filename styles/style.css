@@ -28,13 +28,18 @@ body {
 
 /* Base or Mobile Mode */
 /* Navbar */
+#header-navigation {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  position: relative;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  margin: 15px 0;
+  /* margin: 10px 0; */
   gap: 15px;
 }
 
@@ -48,6 +53,7 @@ body {
 .header-logo>span {
   text-align: center;
   font-weight: 600;
+  font-size: 12px;
 }
 
 #header-navigation nav {
@@ -63,13 +69,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  gap: 35px;
+
 }
 
-.nav-list li a {
+.nav-list li>a {
   color: #000000;
   font-weight: 600;
+  font-size: 12px;
 }
 
 #header-navigation .hamburger-button {
@@ -484,21 +491,99 @@ footer .footer__map {
 }
 
 @media screen and (min-width: 768px) {
-  /*  */
+
+  /* News */
+  .news {
+    margin-bottom: 32px;
+  }
+
+  .news>h2 {
+    margin-bottom: 12px;
+  }
+
+  .news__list {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .news__list__card-title>img {
+    height: 100%;
+    max-height: 180px;
+    width: 100%;
+    max-width: 100vh;
+  }
 }
 
 /* =========================== */
 /* Desktop Mode */
 @media screen and (min-width: 1200px) {
-  #header-navigation nav {
+
+  /* Header & Navbar */
+  #header-navigation {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    height: 100px;
   }
 
   #header-navigation .hamburger-button {
     display: none;
   }
 
+  #header-navigation nav {
+    display: flex;
+  }
+
+  #header-navigation .header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-logo>img {
+    max-height: 60px;
+  }
+
+  #header-navigation>.header-container>.header-logo>.logo {
+    font-size: 12px;
+    color: #1450A3;
+  }
+
+  #header-navigation nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    box-shadow: none;
+  }
+
+  .nav-list>li>a {
+    font-size: 12px;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    background-color: #ffff;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .dropdown-menu>li>a {
+    font-size: 12px;
+  }
+
+  .hero-section>img {
+    position: absolute;
+    z-index: -1;
+  }
 }
