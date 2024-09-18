@@ -193,18 +193,18 @@ section>.hero-offer {
   margin-bottom: 32px;
 }
 
-.profile>h2 {
+.profile>.profile__desc>h2 {
   color: #FFC436;
   padding: 24px;
 }
 
-.profile p {
+.profile .profile__desc>p {
   line-height: 24px;
   font-size: 17px;
   padding: 24px;
 }
 
-.profile p>span {
+.profile .profile__desc>p>span {
   color: #FFC436;
 }
 
@@ -440,7 +440,7 @@ footer .footer__map {
   /* Profile */
   .profile>img {
     width: 100%;
-    max-width: 780px;
+    max-width: 990px;
     margin-bottom: 12px;
   }
 
@@ -449,8 +449,9 @@ footer .footer__map {
     padding: 24px;
     margin: 0 auto;
     width: 100%;
-    max-width: 780px;
+    max-width: 1190px;
     height: auto;
+    object-fit: cover;
   }
 
   /* Program & Facility */
@@ -523,11 +524,12 @@ footer .footer__map {
   }
 
   /* Footer */
-  footer>.footer__address-contact {
+  footer {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
+    gap: 10px;
   }
 
   footer .footer__address {
@@ -537,9 +539,9 @@ footer .footer__map {
   }
 
   footer>.footer__map {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    max-width: 1250px;
+    max-width: 500px;
   }
 }
 
@@ -557,6 +559,23 @@ footer .footer__map {
     width: 100%;
     max-width: 700px;
     margin-bottom: 48px;
+  }
+
+  /* Profile */
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .profile>img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 12px;
+    padding: 12px;
+    height: 900px;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
@@ -629,5 +648,43 @@ footer .footer__map {
   .hero-section>img {
     position: absolute;
     z-index: -1;
+  }
+
+  /* Hero */
+  .hero-section {
+    height: 90vh;
+  }
+
+  .hero-offer>span {
+    margin: 32px 0;
+  }
+
+  .hero-section>.hero-offer>h1 {
+    font-size: 58px;
+    width: 100%;
+    max-width: 750px;
+    margin-bottom: 48px;
+  }
+
+  /* Profile */
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .profile__desc {
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .profile>img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
   }
 }
