@@ -408,6 +408,8 @@ footer>p {
   margin: 4px 0;
   background: #303030;
   color: #ffff;
+  padding: 4px;
+  font-size: 12px;
 }
 
 /* =========================== */
