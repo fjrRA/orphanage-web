@@ -228,23 +228,28 @@ section>.hero-offer {
   padding: 24px;
 }
 
-.vision-mission__list>h3 {
+.vision-list>h3,
+.mission-list>h3,
+.vision-mission__capacity>h3 {
   margin: 24px 0 0 0;
   color: #1450A3;
 }
 
-.vision-mission__list>p,
+.vision-list>p,
+.mission-list>li,
+.vision-mission__capacity>p,
 li {
   line-height: 20px;
   font-size: 17px;
+  color: #000;
 }
 
-.vision-mission__list>ol {
+.mission-list>ol {
   margin-top: -16px;
   padding: 20px;
 }
 
-.vision-mission>img {
+.vision-mission__container>img {
   padding: 24px;
   margin: 0 auto;
   width: 100%;
@@ -378,7 +383,7 @@ footer .footer__address {
   margin-bottom: 12px;
 }
 
-footer .footer__map {
+.footer__container .footer__map {
   max-width: 450px;
   height: 450px;
   margin-bottom: 12px;
@@ -387,6 +392,13 @@ footer .footer__map {
 .footer__map>iframe {
   width: 100%;
   height: 100%;
+}
+
+footer>p {
+  text-align: center;
+  margin: 4px 0;
+  background: #303030;
+  color: #ffff;
 }
 
 /* =========================== */
@@ -445,7 +457,7 @@ footer .footer__map {
   }
 
   /* Vision & Mission */
-  .vision-mission>img {
+  .vision-mission__container>img {
     padding: 24px;
     margin: 0 auto;
     width: 100%;
@@ -524,7 +536,7 @@ footer .footer__map {
   }
 
   /* Footer */
-  footer {
+  .footer__container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -532,13 +544,13 @@ footer .footer__map {
     gap: 10px;
   }
 
-  footer .footer__address {
+  .footer__container .footer__address {
     width: 100%;
     max-width: 450px;
     height: auto;
   }
 
-  footer>.footer__map {
+  .footer__container>.footer__map {
     height: 300px;
     width: 100%;
     max-width: 500px;
@@ -576,6 +588,18 @@ footer .footer__map {
     height: 900px;
     object-fit: cover;
     object-position: center;
+  }
+
+  /* Vision & Mission */
+  .vision-mission__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .mission-list>ol {
+    width: 300px;
   }
 }
 
@@ -682,9 +706,46 @@ footer .footer__map {
 
   .profile>img {
     width: 100%;
-    max-width: 700px;
-    height: auto;
+    max-width: 500px;
+    height: 550px;
     object-fit: cover;
     object-position: center;
+  }
+
+  /* Vision & Mission */
+  .vision-mission__container {
+    display: flex;
+  }
+
+  .vision-mission__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mission-list>ol {
+    width: 400px;
+  }
+
+  /* News */
+
+  .news__list__card-title>img {
+    height: 100%;
+    max-height: 300px;
+  }
+
+  /* Footer */
+  .footer__address-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer__container>.footer__map {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    margin-left: 300px;
   }
 }
