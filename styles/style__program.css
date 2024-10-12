@@ -145,6 +145,146 @@ body {
   border-radius: 50%;
 }
 
+.program__skills {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 14px;
+}
+
+.program__skills-card {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #FDFDFD;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.program__skills-card>img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.program__skills-card>.program__skills-list>h3 {
+  text-align: center;
+  margin: 12px 0 1px;
+  color: #1450A3;
+}
+
+.program__skills-card>.program__skills-list>ol {
+  padding: 24px;
+}
+
+.program__skills-card>ol>.program__skills-list>li {
+  margin-bottom: 8px;
+}
+
+.program__education {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 14px;
+}
+
+.program__education-card {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #FDFDFD;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.program__education-card>img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.program__education-card>.program__education-list>h3 {
+  text-align: center;
+  margin: 12px 0 1px;
+  color: #1450A3;
+}
+
+.program__education-card>.program__education-list>ol {
+  padding: 24px;
+}
+
+.program__education-card>ol>.program__education-list>li {
+  margin-bottom: 8px;
+}
+
+.program__health {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 14px;
+}
+
+.program__health-card {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #FDFDFD;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.program__health-card>img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.program__health-card>.program__health-list>h3 {
+  text-align: center;
+  margin: 12px 0 1px;
+  color: #1450A3;
+}
+
+.program__health-card>.program__health-list>ol {
+  padding: 24px;
+}
+
+.program__health-card>.program__health-list>ol>li {
+  margin-bottom: 8px;
+}
+
+.program__religion {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 14px;
+}
+
+.program__religion-card {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #FDFDFD;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.program__religion-card>img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.program__religion-card>.program__religion-list>h3 {
+  text-align: center;
+  margin: 12px 0 1px;
+  color: #1450A3;
+}
+
+.program__religion-card>.program__religion-list>ol {
+  padding: 24px;
+}
+
+.program__religion-card>.program__religion-list>ol>li {
+  margin-bottom: 8px;
+}
+
 /* Footer */
 footer {
   box-shadow: 0px -5px 31px -15px #000000;
@@ -237,7 +377,98 @@ footer>p {
   }
 
   /* Main */
-  /* Blog */
+  /* Program */
+  .program__skills {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .program__skills-card {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program__skills-card>img {
+    max-width: 350px;
+    object-fit: cover;
+  }
+
+  .program__skills-list>ol>li {
+    margin-left: 14px;
+    padding: 4px;
+  }
+
+  .program__education {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .program__education-card {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program__education-card>img {
+    max-width: 350px;
+    object-fit: cover;
+  }
+
+  .program__education-list>ol>li {
+    margin-right: 14px;
+    padding: 4px;
+  }
+
+  .program__health {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .program__health-card {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program__health-card>img {
+    max-width: 350px;
+    object-fit: cover;
+  }
+
+  .program__health-list>ol>li {
+    margin-left: 14px;
+    padding: 4px;
+  }
+
+  .program__religion {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .program__religion-card {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program__religion-card>img {
+    max-width: 350px;
+    object-fit: cover;
+  }
+
+  .program__religion-list>ol>li {
+    margin-right: 14px;
+    padding: 4px;
+  }
 
   /* Footer */
   .footer__container {
@@ -266,7 +497,7 @@ footer>p {
 @media screen and (min-width: 992px) {
 
   /* Main */
-  /* Blog */
+  /* Program */
 }
 
 /* =========================== */
@@ -335,13 +566,27 @@ footer>p {
     font-size: 12px;
   }
 
-  .hero-section>img {
-    position: absolute;
-    z-index: -1;
+  /* Main */
+  /* Program */
+  .program__skills-card>img {
+    max-width: 550px;
+    object-fit: cover;
   }
 
-  /* Main */
-  /* Blog */
+  .program__education-card>img {
+    max-width: 550px;
+    object-fit: cover;
+  }
+
+  .program__health-card>img {
+    max-width: 550px;
+    object-fit: cover;
+  }
+
+  .program__religion-card>img {
+    max-width: 650px;
+    object-fit: cover;
+  }
 
   /* Footer */
   .footer__address-contact {
