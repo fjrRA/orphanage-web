@@ -1,0 +1,64 @@
+{
+  "programRutinitas": [
+    {
+      "id": "1",
+      "gambarFasilitas": "../assets/images/img-menu-facility-1.png",
+      "judulFasilitas": "Ruang Makan",
+      "deskripsiFasilitas": "Wajib makan di ruang makan sebagai pola pendisiplinan."
+    },
+    {
+      "id": "2",
+      "gambarFasilitas": "../assets/images/img-menu-facility-2.png",
+      "judulFasilitas": "Asrama",
+      "deskripsiFasilitas": "PA Muhammadiyah Purwokerto menampung 40 anak asuh."
+    },
+    {
+      "id": "3",
+      "gambarFasilitas": "../assets/images/img-menu-facility-3.png",
+      "judulFasilitas": "Aula",
+      "deskripsiFasilitas": "Gedung pertemuan santri beserta para tamu rombongan."
+    },
+    {
+      "id": "4",
+      "gambarFasilitas": "../assets/images/img-menu-facility-4.png",
+      "judulFasilitas": "Dapur",
+      "deskripsiFasilitas": "Dapur menyuplai konsumsi 3 kali sehari, beserta makanan tambahan."
+    },
+    {
+      "id": "5",
+      "gambarFasilitas": "../assets/images/img-menu-facility-5.png",
+      "judulFasilitas": "Transportasi",
+      "deskripsiFasilitas": "Panti Asuhan Muhammadiyah Purwokerto menyediakan Bus, Motor dan untuk transportasi."
+    },
+    {
+      "id": "6",
+      "gambarFasilitas": "../assets/images/img-menu-facility-6.png",
+      "judulFasilitas": "Kesehatan",
+      "deskripsiFasilitas": "PA Muhammadiyah Purwokerto menyediakan P3K dan layanan berobat."
+    },
+    {
+      "id": "7",
+      "gambarFasilitas": "../assets/images/img-menu-facility-7.png",
+      "judulFasilitas": "Kamar Mandi",
+      "deskripsiFasilitas": "PA Muhammadiyah Purwokerto menyediakan 8 kamar mandi dan toilet beserta tempat cuci."
+    },
+    {
+      "id": "8",
+      "gambarFasilitas": "../assets/images/img-menu-facility-8.png",
+      "judulFasilitas": "Kesenian",
+      "deskripsiFasilitas": "Kesenian yang diprogramkan berupa kenthongan, kaligrafi, desain grafis, dan tilawah mujawwadah."
+    },
+    {
+      "id": "9",
+      "gambarFasilitas": "../assets/images/img-menu-facility-9.png",
+      "judulFasilitas": "Olahraga",
+      "deskripsiFasilitas": "Anak asuh diberikan fasilitas catur, senam, lari pagi, tapak suci, tenis meja, sepakbola, volley dan futsal."
+    },
+    {
+      "id": "10",
+      "gambarFasilitas": "../assets/images/img-menu-facility-10.png",
+      "judulFasilitas": "Ruang Belajar",
+      "deskripsiFasilitas": "Ta'lim dilaksanakan di dalam kelas sesuai tingkat kemampuan anak asuh."
+    }
+  ]
+}
