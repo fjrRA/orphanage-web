@@ -117,7 +117,78 @@ body {
 }
 
 /* Main */
-/* Blog */
+/* Title */
+.legal-title {
+  text-align: center;
+  margin: 48px 0;
+  font-size: 28px;
+}
+
+.legal-title>.legal-title__dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.legal-title__dot-black {
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.legal-title__dot-blue {
+  height: 25px;
+  width: 25px;
+  background-color: #1450A3;
+  border-radius: 50%;
+}
+
+/* News */
+.news {
+  margin-bottom: 2rem;
+}
+
+.news>h2 {
+  text-align: center;
+  margin: 32px auto;
+  font-size: 32px;
+}
+
+.news>h2>span {
+  color: #1450A3;
+  margin-top: 100px;
+}
+
+.news__list__card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 480px;
+}
+
+.news__list__card-title>img {
+  width: 100%;
+  height: auto;
+}
+
+.news__list__card-title>h3 {
+  font-size: 17px;
+}
+
+.news__list__card-title>span {
+  color: #454545;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: .75;
+}
+
+.news__list__card-title>p {
+  margin-top: 12px;
+}
 
 /* Footer */
 footer {
@@ -194,7 +265,15 @@ footer>p {
   }
 
   /* Main */
-  /* Blog */
+  /* News */
+  .news {
+    margin-bottom: 2rem;
+  }
+
+  .news__list__card {
+    width: 100%;
+    max-width: 780px;
+  }
 
   /* Footer */
   footer .footer__map {
@@ -211,7 +290,34 @@ footer>p {
   }
 
   /* Main */
-  /* Blog */
+  /* News */
+  .news {
+    margin-bottom: 5rem;
+  }
+
+  .news>h2 {
+    margin: 12px;
+  }
+
+  .news__list {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .article__title {
+    margin-top: 2rem;
+  }
+
+  .news__list__card-title>img {
+    height: 100%;
+    max-height: 180px;
+    width: 100%;
+    max-width: 100vh;
+    object-fit: cover;
+  }
 
   /* Footer */
   .footer__container {
@@ -241,6 +347,13 @@ footer>p {
 
   /* Main */
   /* Blog */
+  .news__list {
+    margin-bottom: 5rem;
+  }
+
+  .article__title {
+    margin-top: 1rem;
+  }
 }
 
 /* =========================== */
@@ -315,7 +428,19 @@ footer>p {
   }
 
   /* Main */
-  /* Blog */
+  /* News */
+  .news {
+    margin-bottom: 3rem;
+  }
+
+  .news__list {
+    margin-bottom: 3rem;
+  }
+
+  .news__list__card-title>img {
+    height: 100%;
+    max-height: 300px;
+  }
 
   /* Footer */
   .footer__address-contact {
