@@ -3,6 +3,7 @@ package.json
 .vscode
 .env
 .test.env
+todo.txt
  
 node_modules
 package-lock.json
