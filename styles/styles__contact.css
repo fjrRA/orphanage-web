@@ -204,16 +204,80 @@ main>h2 {
   font-size: 32px;
   text-align: center;
   margin: 3rem 0 12px;
+  color: #FFC436;
 }
 
 main>h2>span {
   color: #1450A3;
 }
 
+/* Contact  */
 .contact__container {
+  margin: 0 auto;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 3rem;
+}
+
+.contact__form-name,
+.contact__form-email,
+.contact__form-textarea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.contact__form-name>input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact__form-email>input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact__form-textarea>textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  resize: none;
+}
+
+.contact__submit {
+  width: 100%;
+  background-color: #174079;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.contact__submit:hover {
+  background-color: #1450A3;
+
 }
 
 /* Footer */
@@ -305,6 +369,11 @@ footer>p {
     max-width: 310px;
   }
 
+  /* Contact */
+  .contact__container {
+    max-width: 560px;
+  }
+
   /* Footer */
   footer .footer__map {
     max-width: 780px;
@@ -331,6 +400,11 @@ footer>p {
 
   .donation__bank-bsi {
     max-width: 200px;
+  }
+
+  /* Contact */
+  .contact__container {
+    max-width: 768px;
   }
 
   /* Footer */
