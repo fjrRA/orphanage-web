@@ -167,6 +167,10 @@ section>.hero-offer {
   border: none;
 }
 
+.hero-offer>button>.first__button {
+  color: #f0f0f0;
+}
+
 .hero-offer>button:last-child {
   color: #1450A3;
   background: transparent;
@@ -576,7 +580,8 @@ footer>p {
 
   /* Hero */
   .hero-section {
-    height: 600px;
+    height: 100%;
+    max-height: 900px;
   }
 
   .hero-section>.hero-offer>h1 {
@@ -689,7 +694,7 @@ footer>p {
 
   /* Hero */
   .hero-section {
-    height: 90vh;
+    height: 95vh;
   }
 
   .hero-offer>span {
