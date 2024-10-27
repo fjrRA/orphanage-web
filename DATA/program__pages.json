@@ -1,0 +1,52 @@
+{
+  "programRutinitas": [
+    {
+      "id": "1",
+      "waktu": "03.30-05.30",
+      "judulAktivitas": "Bangun Pagi",
+      "deskripsiAktivitas": "Bangun pagi sebelum adzan. Shalat tahajjud & makan sahur (jika puasa). Sholat qabliyah & shalat shubuh berjamaah. Dzikir, Wirid & Do'a. Tadarus dan Hafalan Al-Qur'an Metode One Day One Juz."
+    },
+    {
+      "id": "2",
+      "waktu": "05.30-07.00",
+      "judulAktivitas": "Persiapan Sekolah",
+      "deskripsiAktivitas": "Piket harian sesuai jadwal, mandi, sarapan & berangkat sekolah."
+    },
+    {
+      "id": "3",
+      "waktu": "07.00-15.30",
+      "judulAktivitas": "Sekolah Formal",
+      "deskripsiAktivitas": "Shalat Dhuha, Sekolah Formal, Shalat qabliyah zhuhur, shalah zhuhur berjamaah & shalat ba'diyah zhuhur. Dzikir, Wirid & Do'a. Makan Siang. Shalat Ashar berjamaah, Dzikir Wirid & Do'a."
+    },
+    {
+      "id": "4",
+      "waktu": "15.30-17.00",
+      "judulAktivitas": "Ekstrakurikuler",
+      "deskripsiAktivitas": "Madrasah Diniyah TPA. Tahsinul Qur'an Metode Yanbu'a. Kenthongan Laras Patria. Desain grafis/Kaligrafi/Tilawah Mujawwadah. Silat Tapak Suci. Hizbul Wathan. Kursus Komputer. Panjat Tebing. Sepakbola."
+    },
+    {
+      "id": "5",
+      "waktu": "17.00-18.30",
+      "judulAktivitas": "Aktivitas Petang",
+      "deskripsiAktivitas": "Mandi sore. Shalat Maghrib berjmaah. Dzikir, Wirid & Do'a. Shalat Ba'diyah Maghrib."
+    },
+    {
+      "id": "6",
+      "waktu": "18.30-19.30",
+      "judulAktivitas": "Madrasah Diniyah",
+      "deskripsiAktivitas": "Tahfizhul Qur'an, Hadits Arbain Nawawi. Kajian Himpunan Putusan Tarjih Muhammadiyah bahasa Arab Tamyiz. Tadarus Al-Kahfi. Shalat Isya berjamaah. Dzikir, Wirid & Do'a. Shalat Ba'diyah Isya. Kuliah Tujuh Menit. Setora Hafalan Al-Qur'an Metode One Day One Line"
+    },
+    {
+      "id": "7",
+      "waktu": "19.30-21.30",
+      "judulAktivitas": "Belajar Malam",
+      "deskripsiAktivitas": "Makan Malam, Belajar Kelompok Terbimbing."
+    },
+    {
+      "id": "8",
+      "waktu": "21.30-02.30",
+      "judulAktivitas": "Istirahat",
+      "deskripsiAktivitas": "Tidur Malam."
+    }
+  ]
+}

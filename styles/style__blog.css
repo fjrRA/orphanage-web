@@ -16,6 +16,8 @@ ul,
 a {
   list-style: none;
   text-decoration: none;
+  border: none;
+  color: #000;
 }
 
 button {
@@ -39,7 +41,6 @@ body {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  /* margin: 10px 0; */
   gap: 15px;
 }
 
@@ -117,210 +118,39 @@ body {
   display: block;
 }
 
-/* Hero Section */
-.hero-section {
-  background: url("../assets/images/banner.png") no-repeat center center;
-  height: 100%;
-  object-fit: cover;
-  margin-bottom: 48px;
-}
-
-section>.hero-offer {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 0 auto;
-  padding: 30px;
-  height: auto;
-}
-
-.hero-offer>span {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.hero-offer>h1 {
-  font-weight: 900;
-  font-size: 32px;
-  margin-bottom: 30px;
-}
-
-.hero-offer .highlight {
-  color: #1450A3;
-}
-
-.hero-offer>button {
-  color: #fff;
-  background-color: #1450A3;
-  padding: 15px;
-  width: 200px;
-  gap: 8px;
-  align-self: stretch;
-  border-radius: 8px;
-  font-size: 18px;
-  font-style: normal;
-  font-family: inherit;
-  font-weight: 700;
-  line-height: 150%;
-  border: none;
-}
-
-.hero-offer>button:last-child {
-  color: #1450A3;
-  background: transparent;
-  font-weight: 700;
-  border: 2.5px solid #1450A3;
-}
-
 /* Main */
-/* Facility */
-.facility {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-  gap: 20px;
+/* Title */
+.legal-title {
+  text-align: center;
+  margin: 48px 0;
+  font-size: 28px;
+}
+
+.legal-title>.legal-title__dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 24px;
 }
 
-.facility__container {
-  margin: 2rem;
-  padding: 12px;
-  max-width: 340px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 12px;
-}
-
-/* Profile */
-.profile {
-  background: #1450A3;
-  height: auto;
-  color: #f0f0f0;
-  margin-bottom: 32px;
-}
-
-.profile>.profile__desc>h2 {
-  color: #FFC436;
-  padding: 24px;
-}
-
-.profile .profile__desc>p {
-  line-height: 24px;
-  font-size: 17px;
-  padding: 24px;
-}
-
-.profile .profile__desc>p>span {
-  color: #FFC436;
-}
-
-.profile>img {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-  margin-bottom: 12px;
-}
-
-/* Vision & Mission */
-.vision-mission>h2 {
-  text-align: center;
-}
-
-.vision-mission h2>span {
-  color: #1450A3;
-}
-
-.vision-mission__list {
-  padding: 24px;
-}
-
-.vision-list>h3,
-.mission-list>h3,
-.vision-mission__capacity>h3 {
-  margin: 24px 0 0 0;
-  color: #1450A3;
-}
-
-.vision-list>p,
-.mission-list>li,
-.vision-mission__capacity>p,
-li {
-  line-height: 20px;
-  font-size: 17px;
-  color: #000;
-}
-
-.mission-list>ol {
-  margin-top: -16px;
-  padding: 20px;
-}
-
-.vision-mission__container>img {
-  padding: 24px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-}
-
-/* Program & Facility */
-.program {
-  background: #1450A3;
-  padding: 12px;
-}
-
-.program>h2 {
-  text-align: center;
-  color: #f0f0f0;
-  margin: 24px 0;
-}
-
-.program>h2>span {
-  color: #FFC436;
-}
-
-.program__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  color: #f0f0f0;
-}
-
-.program__list__card {
-  max-width: 400px;
-  margin: 8px 0 32px 0;
-  padding: 12px;
-}
-
-.program__list__card__title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-
-.program__list__card__title>img {
+.legal-title__dot-black {
+  height: 25px;
   width: 25px;
-  height: auto;
+  background-color: #000;
+  border-radius: 50%;
+  margin-right: 4px;
 }
 
-.program__list__card__title>h3 {
-  color: #FFC436;
-  font-weight: 600;
-}
-
-.program__list__card>p {
-  text-align: center;
-  font-size: 24px;
+.legal-title__dot-blue {
+  height: 25px;
+  width: 25px;
+  background-color: #1450A3;
+  border-radius: 50%;
 }
 
 /* News */
 .news {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .news>h2 {
@@ -331,6 +161,7 @@ li {
 
 .news>h2>span {
   color: #1450A3;
+  margin-top: 100px;
 }
 
 .news__list__card {
@@ -338,7 +169,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
+  max-width: 480px;
 }
 
 .news__list__card-title>img {
@@ -435,72 +266,10 @@ footer>p {
     font-weight: 700;
   }
 
-  /* Hero Section */
-  .hero-section {
-    margin-bottom: 24px;
-  }
-
-  section>.hero-offer {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 0 auto;
-    padding: 30px;
-  }
-
-  .hero-offer>span {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 24px;
-  }
-
-  .hero-offer>h1 {
-    font-weight: 900;
-    font-size: 48px;
-    margin-bottom: 30px;
-  }
-
-  /* Profile */
-  .profile>img {
-    width: 100%;
-    max-width: 990px;
-    margin-bottom: 12px;
-  }
-
-  /* Vision & Mission */
-  .vision-mission__container>img {
-    padding: 24px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1190px;
-    height: auto;
-    object-fit: cover;
-  }
-
-  /* Program & Facility */
-  .program__list__card {
-    width: 100%;
-    max-width: 780px;
-  }
-
-  .program__list__card__title>img {
-    width: 30px;
-    height: auto;
-  }
-
-  .program__list__card__title>h3 {
-    color: #FFC436;
-    font-weight: 600;
-    font-size: 24px;
-  }
-
-  .program__list__card>p {
-    font-size: 20px;
-  }
-
+  /* Main */
   /* News */
   .news {
-    margin-bottom: 28px;
+    margin-bottom: 2rem;
   }
 
   .news__list__card {
@@ -516,19 +285,20 @@ footer>p {
 
 @media screen and (min-width: 768px) {
 
-  /* Hero Section */
+  /* Header & Navbar */
   .hero-section>.hero-offer>h1 {
     width: 100%;
     max-width: 500px;
   }
 
+  /* Main */
   /* News */
   .news {
-    margin-bottom: 32px;
+    margin-bottom: 5rem;
   }
 
   .news>h2 {
-    margin-bottom: 12px;
+    margin: 12px;
   }
 
   .news__list {
@@ -536,6 +306,11 @@ footer>p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .article__title {
+    margin-top: 2rem;
   }
 
   .news__list__card-title>img {
@@ -572,45 +347,18 @@ footer>p {
 /* Netbook Mode */
 @media screen and (min-width: 992px) {
 
-  /* Hero */
-  .hero-section {
-    height: 600px;
+  /* Main */
+  /* Blog */
+  .news>.article__title {
+    margin-top: 7rem;
   }
 
-  .hero-section>.hero-offer>h1 {
-    font-size: 58px;
-    width: 100%;
-    max-width: 700px;
-    margin-bottom: 48px;
+  .news__list {
+    margin-bottom: 5rem;
   }
 
-  /* Profile */
-  .profile {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  .profile>img {
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 12px;
-    padding: 12px;
-    height: 900px;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  /* Vision & Mission */
-  .vision-mission__list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 24px;
-  }
-
-  .mission-list>ol {
-    width: 300px;
+  .article__title {
+    margin-top: 1rem;
   }
 }
 
@@ -685,60 +433,26 @@ footer>p {
     z-index: -1;
   }
 
-  /* Hero */
-  .hero-section {
-    height: 90vh;
-  }
-
-  .hero-offer>span {
-    margin: 32px 0;
-  }
-
-  .hero-section>.hero-offer>h1 {
-    font-size: 58px;
-    width: 100%;
-    max-width: 750px;
-    margin-bottom: 48px;
-  }
-
-  /* Profile */
-  .profile {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-  }
-
-  .profile__desc {
-    width: 100%;
-    max-width: 900px;
-  }
-
-  .profile>img {
-    width: 100%;
-    max-width: 500px;
-    height: 550px;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  /* Vision & Mission */
-  .vision-mission__container {
-    display: flex;
-  }
-
-  .vision-mission__list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .mission-list>ol {
-    width: 400px;
-  }
-
+  /* Main */
   /* News */
+  .news {
+    margin-bottom: 3rem;
+  }
+
+  .news__list {
+    margin: 7rem auto;
+  }
+
+  .news>h2 {
+    margin-top: 2rem;
+    margin-bottom: -8rem;
+  }
+
+  .news>.article__title {
+    margin-top: 7rem;
+    margin-bottom: -8rem;
+  }
+
   .news__list__card-title>img {
     height: 100%;
     max-height: 300px;

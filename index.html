@@ -4,15 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Panti Asuhan Muhammadiyah Purwokerto</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/cropped-Logo-Panti-Asuhan-Muhammadiyah 1.png">
+
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
   <header id="header-navigation">
-    <div class="header-logo">
-      <img src="assets/images/cropped-Logo-Panti-Asuhan-Muhammadiyah 1.png" alt="">
-      <span class="logo">PANTI ASUHAN PUTRA MUHAMMADIYAH PURWOKERTO<span>.</span></span>
+    <div class="header-container">
+      <div class="header-logo">
+        <img src="assets/images/cropped-Logo-Panti-Asuhan-Muhammadiyah 1.png" alt="">
+        <span class="logo">PANTI ASUHAN PUTRI MUHAMMADIYAH PURWOKERTO</span>
+      </div>
       <button id="hamburger-button" class="hamburger-button" role="button" aria-controls="main-nav"
         aria-expanded="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
@@ -24,25 +28,25 @@
     </div>
 
     <nav id="main-nav">
-      <ul>
+      <ul class="nav-list">
         <li><a href="#">BERANDA</a></li>
         <li class="dropdown">
-          <a href="#">TENTANG KAMI</a>
+          <a href="#">TENTANG KAMI &#11206;</a>
           <ul class="dropdown-menu hidden">
-            <li><a href="#">Visi Misi</a></li>
-            <li><a href="#">Legalitas</a></li>
-            <li><a href="#">Struktur Organisasi</a></li>
+            <li><a href="pages/vision-mission.html">Visi Misi</a></li>
+            <li><a href="pages/legal.html">Legalitas</a></li>
+            <li><a href="pages/structure.html">Struktur Organisasi</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#">PROGRAM</a>
+          <a href="#">PROGRAM &#11206;</a>
           <ul class="dropdown-menu hidden">
-            <li><a href="#">Program Panti</a></li>
-            <li><a href="#">Fasilitas Panti</a></li>
+            <li><a href="pages/program.html">Program Panti</a></li>
+            <li><a href="pages/facility.html">Fasilitas Panti</a></li>
           </ul>
         </li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">KONTAK</a></li>
+        <li><a href="pages/blog.html">BLOG</a></li>
+        <li><a href="pages/contact.html">KONTAK</a></li>
       </ul>
     </nav>
   </header>
@@ -56,7 +60,7 @@
             class="highlight">orang tua</span></h1>
 
         <button>Donasi</button>
-        <button>Tentang Kami</button>
+        <button><a href="pages/vision-mission.html">Tentang Kami</a></button>
       </div>
     </section>
 
@@ -88,51 +92,76 @@
     </section>
 
     <section class="profile">
-      <h2>Panti Asuhan Putra Muhammadiyah Purwokerto</h2>
 
-      <p>Panti Asuhan Putra <span>Muhammadiyah</span> Purwokerto adalah salah satu panti asuhan yang dikelola oleh
-        organisasi
-        <span>Muhammadiyah</span> di Purwokerto, Jawa Tengah, Indonesia. Panti asuhan ini bertujuan untuk memberikan
-        perawatan,
-        pendidikan, dan bimbingan kepada anak-anak yatim piatu, terlantar, atau kurang mampu, agar mereka dapat tumbuh
-        dan
-        berkembang menjadi individu yang mandiri dan berakhlak mulia. Sebagai bagian dari <span>Muhammadiyah</span>,
-        panti asuhan ini
-        tidak hanya fokus pada aspek material, tetapi juga pada pengembangan spiritual dan pendidikan anak-anak. Panti
-        asuhan ini biasanya menyediakan fasilitas seperti tempat tinggal, makanan, pendidikan formal, bimbingan agama,
-        dan
-        kegiatan ekstrakurikuler untuk menunjang perkembangan anak-anak yang diasuh. Untuk mendapatkan informasi lebih
-        rinci mengenai alamat, program, dan cara berkontribusi, biasanya dapat mengunjungi situs resmi
-        <span>Muhammadiyah</span> atau
-        langsung menghubungi panti asuhan tersebut melalui kontak yang tersedia.
-      </p>
+      <div class="profile__desc">
+        <h2>Panti Asuhan Putri Muhammadiyah Purwokerto</h2>
+
+        <p>
+          Panti Asuhan Putri <span>Muhammadiyah</span> Purwokerto adalah salah satu panti asuhan yang dikelola oleh
+          organisasi
+          <span>Muhammadiyah</span> di Purwokerto, Jawa Tengah, Indonesia. Panti asuhan ini bertujuan untuk memberikan
+          perawatan,
+          pendidikan, dan bimbingan kepada anak-anak yatim piatu, terlantar, atau kurang mampu, agar mereka dapat tumbuh
+          dan
+          berkembang menjadi individu yang mandiri dan berakhlak mulia. Sebagai bagian dari <span>Muhammadiyah</span>,
+          panti asuhan ini
+          tidak hanya fokus pada aspek material, tetapi juga pada pengembangan spiritual dan pendidikan anak-anak. Panti
+          asuhan ini biasanya menyediakan fasilitas seperti tempat tinggal, makanan, pendidikan formal, bimbingan agama,
+          dan
+          kegiatan ekstrakurikuler untuk menunjang perkembangan anak-anak yang diasuh.
+          <br>
+          <br>
+          Untuk mendapatkan informasi lebih
+          rinci mengenai alamat, program, dan cara berkontribusi, biasanya dapat mengunjungi situs resmi
+          <span>Muhammadiyah</span> atau
+          langsung menghubungi panti asuhan tersebut melalui kontak yang tersedia.
+          Panti
+          asuhan ini biasanya menyediakan fasilitas seperti tempat tinggal, makanan, pendidikan formal, bimbingan agama,
+          dan
+          kegiatan ekstrakurikuler untuk menunjang perkembangan anak-anak yang diasuh. Untuk mendapatkan informasi lebih
+          rinci mengenai alamat, program, dan cara berkontribusi, biasanya dapat mengunjungi situs resmi
+          <span>Muhammadiyah</span> atau
+          langsung menghubungi panti asuhan tersebut melalui kontak yang tersedia.
+        </p>
+
+      </div>
       <img src="assets/images/bg_profile.png" alt="">
     </section>
 
     <section class="vision-mission">
       <h2>Visi & <span>Misi</span></h2>
 
-      <div class="vision-mission__list">
-        <h3>Visi</h3>
-        <p>Panti Asuhan Muhammadiyah Purwokerto sebagai pusat layanan dan rujukan anak yang berkualitas, professional,
-          mandiri dan Islami.
-        </p>
-        <h3>Misi</h3>
-        <ol start="1">
-          <li>Melindungi dan memenuhi hak anak asuh</li>
-          <li>Meningkatkan kapasitas pengasuhan</li>
-          <li>Meningkatkan kesejahteraan masyarakat</li>
-          <li>Sebagai wadah kaderisasi persyarikatan</li>
-          <li>Meningkatkan gerakan dakwah sosial</li>
-        </ol>
-        <h3>Daya Tampung</h3>
-        <p>
-          Panti Asuhan Putra Muhammadiyah Purwokerto mampu menampung 40 anak asuh, Anak asuh yang mendiami asrama putra
-          saat ini berjumlah 36 anak (90%)
-        </p>
-      </div>
+      <div class="vision-mission__container">
+        <div class="vision-mission__list">
+          <div class="vision-list">
+            <h3>Visi</h3>
+            <p>Panti Asuhan Muhammadiyah Purwokerto sebagai pusat layanan dan rujukan anak yang berkualitas,
+              professional,
+              mandiri dan Islami.
+            </p>
+          </div>
+          <div class="mission-list">
+            <h3>Misi</h3>
+            <ol start="1">
+              <li>Melindungi dan memenuhi hak anak asuh</li>
+              <li>Meningkatkan kapasitas pengasuhan</li>
+              <li>Meningkatkan kesejahteraan masyarakat</li>
+              <li>Sebagai wadah kaderisasi persyarikatan</li>
+              <li>Meningkatkan gerakan dakwah sosial</li>
+            </ol>
+          </div>
+          <div class="vision-mission__capacity">
+            <h3>Daya Tampung</h3>
+            <p>
+              Panti Asuhan Putri Muhammadiyah Purwokerto mampu menampung 40 anak asuh, Anak asuh yang mendiami asrama
+              putri
+              saat ini berjumlah 36 anak (90%)
+            </p>
+          </div>
+        </div>
 
-      <img src="assets/images/visi-misi-profile.png" alt="">
+        <img src="assets/images/visi-misi-profile.png" alt="">
+      </div>
     </section>
 
     <section class="program">
@@ -250,34 +279,39 @@
   </main>
 
   <footer>
-    <div class="footer__address">
-      <img src="assets/images/cropped-Logo-Panti-Asuhan-Muhammadiyah 1.png" alt="" srcset="">
-      <p>Jalan Dokter Angka No. 41, Sokanegara, Purwokerto Timur, Karangjengkol, Sokanegara, Banyumas, Kabupaten
-        Banyumas,
-        Jawa Tengah 53115</p>
-    </div>
+    <div class="footer__container">
+      <div class="footer__address-contact">
+        <div class="footer__address">
+          <img src="assets/images/cropped-Logo-Panti-Asuhan-Muhammadiyah 1.png" alt="" srcset="">
+          <p>Jalan Dokter Angka No. 41, Sokanegara, Purwokerto Timur, Karangjengkol, Sokanegara, Banyumas, Kabupaten
+            Banyumas,
+            Jawa Tengah 53115</p>
+        </div>
 
-    <div class="footer_contact">
-      <h3>Kontak</h3>
-      <span class="contact__list">
-        Call Center :
-        <p>+62 856-0041-6490</p>
-      </span>
-      <span class="contact__list">
-        WhatsApp :
-        <p>+62 856-0041-6490</p>
-      </span>
-      <span class="contact__list">
-        Gmail : <p>pantiasuhanmuhpurwokerto@gmail.com</p>
-      </span>
-    </div>
+        <div class="footer_contact">
+          <h3>Kontak</h3>
+          <span class="contact__list">
+            Call Center :
+            <p>+62 856-0041-6490</p>
+          </span>
+          <span class="contact__list">
+            WhatsApp :
+            <p>+62 856-0041-6490</p>
+          </span>
+          <span class="contact__list">
+            Gmail : <p>pantiasuhanmuhpurwokerto@gmail.com</p>
+          </span>
+        </div>
+      </div>
 
-    <div class="footer__map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31651.557860570923!2d109.19689714908597!3d-7.415931545094162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655e4e40000001%3A0x94cf3d8e3460f027!2sPanti%20Asuhan%20Muhamadiyah%20Purwokerto!5e0!3m2!1sen!2sus!4v1726490900015!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="footer__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63301.39466773055!2d109.20596260415833!3d-7.427889751089754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655dd83d960293%3A0x6ff14aea5cac85db!2sPanti%20Asuhan%20Putri%20Muhammadiyah%20Purwokerto!5e0!3m2!1sid!2sid!4v1727437229952!5m2!1sid!2sid"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
+    <p>&copy; Panti Asuhan Purwokerto. All rights reserved.</p>
   </footer>
 
   <script src="app/index.js"></script>
