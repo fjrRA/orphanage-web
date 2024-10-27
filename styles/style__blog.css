@@ -16,6 +16,8 @@ ul,
 a {
   list-style: none;
   text-decoration: none;
+  border: none;
+  color: #000;
 }
 
 button {
@@ -347,6 +349,10 @@ footer>p {
 
   /* Main */
   /* Blog */
+  .news>.article__title {
+    margin-top: 7rem;
+  }
+
   .news__list {
     margin-bottom: 5rem;
   }
@@ -434,7 +440,12 @@ footer>p {
   }
 
   .news__list {
-    margin-bottom: 3rem;
+    margin: 3rem auto;
+  }
+
+  .news>.article__title {
+    margin-top: 7rem;
+    margin-bottom: -2rem;
   }
 
   .news__list__card-title>img {

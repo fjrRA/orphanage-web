@@ -124,6 +124,33 @@ body {
   padding: 24px;
   width: 100%;
   max-width: 768px;
+  margin: 5rem auto;
+}
+
+.blog__content>h2 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.blog__content>p>span {
+  color: #1450A3;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.blog__content>p:nth-child(2) {
+  font-size: 12px;
+}
+
+.blog__content>p {
+  line-height: 2rem;
+  letter-spacing: .25px;
+}
+
+.blog__content>img {
+  width: 100%;
+  max-width: 768px;
+  margin-top: 32px;
 }
 
 /* Footer */
