@@ -440,12 +440,17 @@ footer>p {
   }
 
   .news__list {
-    margin: 3rem auto;
+    margin: 7rem auto;
+  }
+
+  .news>h2 {
+    margin-top: 2rem;
+    margin-bottom: -8rem;
   }
 
   .news>.article__title {
     margin-top: 7rem;
-    margin-bottom: -2rem;
+    margin-bottom: -8rem;
   }
 
   .news__list__card-title>img {
